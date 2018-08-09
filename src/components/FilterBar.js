@@ -4,14 +4,6 @@ import FilterSearchInput from "./FilterSearchInput";
 import FilterDropdown from "./FilterDropdown";
 
 class FilterBar extends Component {
-  /**
-   * Method for filter the table header array
-   *
-   * @param {Array} columns
-   * @returns {Array}
-   */
-  getTableHeaders = columns => columns.map(entry => entry.id);
-
   render() {
     let { tableData, tableMethods, searchStr } = this.props.appProps;
 
