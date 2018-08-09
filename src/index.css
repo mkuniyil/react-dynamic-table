@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.app-container {
+  margin: 2%;
+}
+
+.sorting::after {
+  font-family: "Glyphicons Halflings";
+  float: right;
+  content: "\e150";
+}
+
+.sorting.asc::after {
+  font-family: "Glyphicons Halflings";
+  float: right;
+  content: "\e155";
+}
+
+.sorting.desc::after {
+  font-family: "Glyphicons Halflings";
+  float: right;
+  content: "\e156";
+}
